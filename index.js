@@ -9,9 +9,9 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-   res.send("Innovative Collage is running...");
+   res.send("Innovative Academy is running...");
 });
 
 app.listen(port, () => {
-   console.log(`Innovative Collage is running on ${port}`)
-})
+   console.log(`Innovative Academy is running on ${port}`);
+});
